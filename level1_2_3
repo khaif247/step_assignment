@@ -1,0 +1,139 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double perimeter = sc.nextDouble();
+        System.out.println(perimeter * 4);
+
+        sc.close();
+    }
+}
+
+
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int num1;
+        int num2;
+
+        System.out.println("enter nu1");
+        num1 = sc.nextInt();
+
+        System.out.println("enter nu2");
+        num2 = sc.nextInt();
+
+        char k;
+        k = sc.next().charAt(0);
+
+        switch (k) {
+            case '+':
+                System.out.println(num1 + num2);
+                break;
+
+            case '-':
+                System.out.println(num1 - num2);
+                break;
+
+            case '*':
+                System.out.println(num1 * num2);
+                break;
+
+            case '/':
+                System.out.println(num1 / num2);
+                break;
+
+            default:
+                System.out.println("nothing wrong");
+        }
+
+        sc.close();
+    }
+}
+
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        double km;
+        Scanner sc = new Scanner(System.in);
+
+        km = sc.nextDouble();
+
+        double mile;
+        mile = km * 1.6;
+
+        System.out.println("The total miles is " + mile + " mile for the given " + km);
+
+        sc.close();
+    }
+}
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        double pound = sc.nextDouble();
+
+        System.out.println(pound * 2.2);
+
+        sc.close();
+    }
+}
+
+
+
+
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        float centi = sc.nextFloat();
+
+        float inches = centi / 2.5f;   // add f to make it float
+        float foot = inches / 12;
+
+        System.out.println("Inches: " + inches);
+        System.out.println("Foot: " + foot);
+
+        sc.close();
+    }
+}
+
+
+
+class Main {
+    public static void main(String[] args) {
+
+        int fee = 125000;
+
+        System.out.println("The discount amount is INR " + fee +
+                " and final discounted fee is INR " + (fee * 0.9));
+    }
+}
+
+
+
+class Main {
+    public static void main(String[] args) {
+        String name = "Harry";
+        int year = 2024;
+        int date_of_birth = 2000;
+
+        System.out.println(name + "'s age in year 2024 is " + (year - date_of_birth));
+    }
+}
